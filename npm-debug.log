@@ -1,0 +1,1222 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'sleep' ]
+2 info using npm@4.0.5
+3 info using node@v7.4.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData sleep
+8 silly fetchNamedPackageData sleep
+9 silly mapToRegistry name sleep
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'sleep',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'sleep',
+12 silly mapToRegistry   name: 'sleep',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/sleep
+14 verbose request uri https://registry.npmjs.org/sleep
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 5:07:34 PM
+17 verbose request id 8ee97f6bc35180a8
+18 verbose etag W/"58f4dafe-56ea"
+19 verbose lastModified Mon, 17 Apr 2017 15:10:54 GMT
+20 http request GET https://registry.npmjs.org/sleep
+21 http 304 https://registry.npmjs.org/sleep
+22 verbose headers { date: 'Sun, 23 Apr 2017 11:12:00 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: 'W/"58f4dafe-56ea"',
+22 verbose headers   age: '151',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-sin18025-SIN',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '1',
+22 verbose headers   'x-timer': 'S1492945920.299079,VS0,VE0',
+22 verbose headers   vary: 'Accept-Encoding' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Sun, 23 Apr 2017 11:12:00 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: 'W/"58f4dafe-56ea"',
+23 silly get     age: '151',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-sin18025-SIN',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1492945920.299079,VS0,VE0',
+23 silly get     vary: 'Accept-Encoding' } ]
+24 verbose etag https://registry.npmjs.org/sleep from cache
+25 verbose get saving sleep to C:\Users\saklayan.shariar\AppData\Roaming\npm-cache\registry.npmjs.org\sleep\.cache.json
+26 verbose correctMkdir C:\Users\saklayan.shariar\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule sleep@5.1.1 checking installable status
+40 silly cache add args [ 'sleep', null ]
+41 verbose cache add spec sleep
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'sleep',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'sleep',
+42 silly cache add   name: 'sleep',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed sleep@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for sleep
+45 info addNameTag [ 'sleep', 'latest' ]
+46 silly mapToRegistry name sleep
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'sleep',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'sleep',
+49 silly mapToRegistry   name: 'sleep',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/sleep
+51 verbose addNameTag registry:https://registry.npmjs.org/sleep not in flight; fetching
+52 verbose get https://registry.npmjs.org/sleep not expired, no request
+53 silly addNameTag next cb for sleep with tag latest
+54 silly addNamed sleep@5.1.1
+55 verbose addNamed "5.1.1" is a plain semver version for sleep
+56 silly cache afterAdd sleep@5.1.1
+57 verbose afterAdd C:\Users\saklayan.shariar\AppData\Roaming\npm-cache\sleep\5.1.1\package\package.json not in flight; writing
+58 verbose correctMkdir C:\Users\saklayan.shariar\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+59 verbose afterAdd C:\Users\saklayan.shariar\AppData\Roaming\npm-cache\sleep\5.1.1\package\package.json written
+60 silly fetchNamedPackageData nan
+61 silly mapToRegistry name nan
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'nan',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   escapedName: 'nan',
+64 silly mapToRegistry   name: 'nan',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/nan
+66 verbose request uri https://registry.npmjs.org/nan
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 5:07:35 PM
+69 verbose etag W/"58ee904e-1f9bf"
+70 verbose lastModified Wed, 12 Apr 2017 20:38:38 GMT
+71 http request GET https://registry.npmjs.org/nan
+72 http 304 https://registry.npmjs.org/nan
+73 verbose headers { date: 'Sun, 23 Apr 2017 11:12:00 GMT',
+73 verbose headers   via: '1.1 varnish',
+73 verbose headers   'cache-control': 'max-age=300',
+73 verbose headers   etag: 'W/"58ee904e-1f9bf"',
+73 verbose headers   age: '6',
+73 verbose headers   connection: 'keep-alive',
+73 verbose headers   'x-served-by': 'cache-sin18025-SIN',
+73 verbose headers   'x-cache': 'HIT',
+73 verbose headers   'x-cache-hits': '1',
+73 verbose headers   'x-timer': 'S1492945921.709377,VS0,VE0',
+73 verbose headers   vary: 'Accept-Encoding' }
+74 silly get cb [ 304,
+74 silly get   { date: 'Sun, 23 Apr 2017 11:12:00 GMT',
+74 silly get     via: '1.1 varnish',
+74 silly get     'cache-control': 'max-age=300',
+74 silly get     etag: 'W/"58ee904e-1f9bf"',
+74 silly get     age: '6',
+74 silly get     connection: 'keep-alive',
+74 silly get     'x-served-by': 'cache-sin18025-SIN',
+74 silly get     'x-cache': 'HIT',
+74 silly get     'x-cache-hits': '1',
+74 silly get     'x-timer': 'S1492945921.709377,VS0,VE0',
+74 silly get     vary: 'Accept-Encoding' } ]
+75 verbose etag https://registry.npmjs.org/nan from cache
+76 verbose get saving nan to C:\Users\saklayan.shariar\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+77 verbose correctMkdir C:\Users\saklayan.shariar\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+78 silly resolveWithNewModule nan@2.6.2 checking installable status
+79 silly cache add args [ 'nan@>=2.5.1', null ]
+80 verbose cache add spec nan@>=2.5.1
+81 silly cache add parsed spec Result {
+81 silly cache add   raw: 'nan@>=2.5.1',
+81 silly cache add   scope: null,
+81 silly cache add   escapedName: 'nan',
+81 silly cache add   name: 'nan',
+81 silly cache add   rawSpec: '>=2.5.1',
+81 silly cache add   spec: '>=2.5.1',
+81 silly cache add   type: 'range' }
+82 silly addNamed nan@>=2.5.1
+83 verbose addNamed ">=2.5.1" is a valid semver range for nan
+84 silly addNameRange { name: 'nan', range: '>=2.5.1', hasData: false }
+85 silly mapToRegistry name nan
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'nan',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'nan',
+88 silly mapToRegistry   name: 'nan',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/nan
+90 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+91 verbose get https://registry.npmjs.org/nan not expired, no request
+92 silly addNameRange number 2 { name: 'nan', range: '>=2.5.1', hasData: true }
+93 silly addNameRange versions [ 'nan',
+93 silly addNameRange   [ '0.3.0-wip',
+93 silly addNameRange     '0.3.0-wip2',
+93 silly addNameRange     '0.3.0',
+93 silly addNameRange     '0.3.1',
+93 silly addNameRange     '0.3.2',
+93 silly addNameRange     '0.4.0',
+93 silly addNameRange     '0.4.1',
+93 silly addNameRange     '0.4.2',
+93 silly addNameRange     '0.4.3',
+93 silly addNameRange     '0.4.4',
+93 silly addNameRange     '0.5.0',
+93 silly addNameRange     '0.5.1',
+93 silly addNameRange     '0.5.2',
+93 silly addNameRange     '0.6.0',
+93 silly addNameRange     '0.7.0',
+93 silly addNameRange     '0.7.1',
+93 silly addNameRange     '0.8.0',
+93 silly addNameRange     '1.0.0',
+93 silly addNameRange     '1.1.0',
+93 silly addNameRange     '1.1.1',
+93 silly addNameRange     '1.1.2',
+93 silly addNameRange     '1.2.0',
+93 silly addNameRange     '1.3.0',
+93 silly addNameRange     '1.4.0',
+93 silly addNameRange     '1.4.1',
+93 silly addNameRange     '1.5.0',
+93 silly addNameRange     '1.4.2',
+93 silly addNameRange     '1.4.3',
+93 silly addNameRange     '1.5.1',
+93 silly addNameRange     '1.5.2',
+93 silly addNameRange     '1.6.0',
+93 silly addNameRange     '1.5.3',
+93 silly addNameRange     '1.6.1',
+93 silly addNameRange     '1.6.2',
+93 silly addNameRange     '1.7.0',
+93 silly addNameRange     '1.8.0',
+93 silly addNameRange     '1.8.1',
+93 silly addNameRange     '1.8.2',
+93 silly addNameRange     '1.8.3',
+93 silly addNameRange     '1.8.4',
+93 silly addNameRange     '1.9.0',
+93 silly addNameRange     '2.0.0',
+93 silly addNameRange     '2.0.1',
+93 silly addNameRange     '2.0.2',
+93 silly addNameRange     '2.0.3',
+93 silly addNameRange     '2.0.4',
+93 silly addNameRange     '2.0.5',
+93 silly addNameRange     '2.0.6',
+93 silly addNameRange     '2.0.7',
+93 silly addNameRange     '2.0.8',
+93 silly addNameRange     '2.0.9',
+93 silly addNameRange     '2.1.0',
+93 silly addNameRange     '2.2.0',
+93 silly addNameRange     '2.2.1',
+93 silly addNameRange     '2.3.0',
+93 silly addNameRange     '2.3.1',
+93 silly addNameRange     '2.3.2',
+93 silly addNameRange     '2.3.3',
+93 silly addNameRange     '2.3.4',
+93 silly addNameRange     '2.3.5',
+93 silly addNameRange     '2.4.0',
+93 silly addNameRange     '2.5.0',
+93 silly addNameRange     '2.5.1',
+93 silly addNameRange     '2.6.0',
+93 silly addNameRange     '2.6.1',
+93 silly addNameRange     '2.6.2' ] ]
+94 silly addNamed nan@2.6.2
+95 verbose addNamed "2.6.2" is a plain semver version for nan
+96 silly cache afterAdd nan@2.6.2
+97 verbose afterAdd C:\Users\saklayan.shariar\AppData\Roaming\npm-cache\nan\2.6.2\package\package.json not in flight; writing
+98 verbose correctMkdir C:\Users\saklayan.shariar\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+99 verbose afterAdd C:\Users\saklayan.shariar\AppData\Roaming\npm-cache\nan\2.6.2\package\package.json written
+100 silly fetchNamedPackageData fsevents
+101 silly mapToRegistry name fsevents
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry https://registry.npmjs.org/
+104 silly mapToRegistry data Result {
+104 silly mapToRegistry   raw: 'fsevents',
+104 silly mapToRegistry   scope: null,
+104 silly mapToRegistry   escapedName: 'fsevents',
+104 silly mapToRegistry   name: 'fsevents',
+104 silly mapToRegistry   rawSpec: '',
+104 silly mapToRegistry   spec: 'latest',
+104 silly mapToRegistry   type: 'tag' }
+105 silly mapToRegistry uri https://registry.npmjs.org/fsevents
+106 verbose request uri https://registry.npmjs.org/fsevents
+107 verbose request no auth needed
+108 info attempt registry request try #1 at 5:07:35 PM
+109 verbose etag W/"58cbe1d5-d5e6"
+110 verbose lastModified Fri, 17 Mar 2017 13:17:09 GMT
+111 http request GET https://registry.npmjs.org/fsevents
+112 http 304 https://registry.npmjs.org/fsevents
+113 verbose headers { date: 'Sun, 23 Apr 2017 11:12:00 GMT',
+113 verbose headers   via: '1.1 varnish',
+113 verbose headers   'cache-control': 'max-age=300',
+113 verbose headers   etag: 'W/"58cbe1d5-d5e6"',
+113 verbose headers   age: '152',
+113 verbose headers   connection: 'keep-alive',
+113 verbose headers   'x-served-by': 'cache-sin18025-SIN',
+113 verbose headers   'x-cache': 'HIT',
+113 verbose headers   'x-cache-hits': '5',
+113 verbose headers   'x-timer': 'S1492945921.998186,VS0,VE0',
+113 verbose headers   vary: 'Accept-Encoding' }
+114 silly get cb [ 304,
+114 silly get   { date: 'Sun, 23 Apr 2017 11:12:00 GMT',
+114 silly get     via: '1.1 varnish',
+114 silly get     'cache-control': 'max-age=300',
+114 silly get     etag: 'W/"58cbe1d5-d5e6"',
+114 silly get     age: '152',
+114 silly get     connection: 'keep-alive',
+114 silly get     'x-served-by': 'cache-sin18025-SIN',
+114 silly get     'x-cache': 'HIT',
+114 silly get     'x-cache-hits': '5',
+114 silly get     'x-timer': 'S1492945921.998186,VS0,VE0',
+114 silly get     vary: 'Accept-Encoding' } ]
+115 verbose etag https://registry.npmjs.org/fsevents from cache
+116 verbose get saving fsevents to C:\Users\saklayan.shariar\AppData\Roaming\npm-cache\registry.npmjs.org\fsevents\.cache.json
+117 verbose correctMkdir C:\Users\saklayan.shariar\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+118 silly resolveWithNewModule fsevents@1.1.1 checking installable status
+119 silly loadAllDepsIntoIdealTree Finishing
+120 silly loadIdealTree Finishing
+121 silly currentTree Google Maps
+121 silly currentTree +-- abbrev@1.1.0
+121 silly currentTree +-- accepts@1.3.3
+121 silly currentTree +-- after@0.8.2
+121 silly currentTree +-- align-text@0.1.4
+121 silly currentTree +-- amdefine@1.0.1
+121 silly currentTree +-- ansi-regex@2.1.1
+121 silly currentTree +-- ansi-styles@2.2.1
+121 silly currentTree +-- anymatch@1.3.0
+121 silly currentTree +-- arr-diff@2.0.0
+121 silly currentTree +-- arr-flatten@1.0.3
+121 silly currentTree +-- array-flatten@1.1.1
+121 silly currentTree +-- array-unique@0.2.1
+121 silly currentTree +-- arraybuffer.slice@0.0.6
+121 silly currentTree +-- arrify@1.0.1
+121 silly currentTree +-- async-each@1.0.1
+121 silly currentTree +-- async@1.5.2
+121 silly currentTree +-- backo2@1.0.2
+121 silly currentTree +-- balanced-match@0.4.2
+121 silly currentTree +-- base64-arraybuffer@0.1.5
+121 silly currentTree +-- base64id@1.0.0
+121 silly currentTree +-- better-assert@1.0.2
+121 silly currentTree +-- binary-extensions@1.8.0
+121 silly currentTree +-- bl@1.2.0
+121 silly currentTree +-- blob@0.0.4
+121 silly currentTree +-- brace-expansion@1.1.7
+121 silly currentTree +-- braces@1.8.5
+121 silly currentTree +-- buffer-shims@1.0.0
+121 silly currentTree +-- callback-stream@1.1.0
+121 silly currentTree +-- callsite@1.0.0
+121 silly currentTree +-- camelcase@1.2.1
+121 silly currentTree +-- center-align@0.1.3
+121 silly currentTree +-- chalk@1.1.3
+121 silly currentTree +-- chokidar@1.6.1
+121 silly currentTree | +-- glob-parent@2.0.0
+121 silly currentTree | +-- is-extglob@1.0.0
+121 silly currentTree | `-- is-glob@2.0.1
+121 silly currentTree +-- cliui@2.1.0
+121 silly currentTree | `-- wordwrap@0.0.2
+121 silly currentTree +-- commist@1.0.0
+121 silly currentTree +-- component-bind@1.0.0
+121 silly currentTree +-- component-emitter@1.1.2
+121 silly currentTree +-- component-inherit@0.0.3
+121 silly currentTree +-- concat-map@0.0.1
+121 silly currentTree +-- concat-stream@1.6.0
+121 silly currentTree +-- configstore@1.4.0
+121 silly currentTree +-- content-disposition@0.5.2
+121 silly currentTree +-- content-type@1.0.2
+121 silly currentTree +-- cookie-signature@1.0.6
+121 silly currentTree +-- cookie@0.3.1
+121 silly currentTree +-- core-util-is@1.0.2
+121 silly currentTree +-- debug@2.6.1
+121 silly currentTree +-- decamelize@1.2.0
+121 silly currentTree +-- deep-extend@0.4.1
+121 silly currentTree +-- depd@1.1.0
+121 silly currentTree +-- destroy@1.0.4
+121 silly currentTree +-- dummy-json@2.0.0
+121 silly currentTree +-- duplexer@0.1.1
+121 silly currentTree +-- duplexify@3.5.0
+121 silly currentTree | +-- end-of-stream@1.0.0
+121 silly currentTree | `-- once@1.3.3
+121 silly currentTree +-- ee-first@1.1.1
+121 silly currentTree +-- encodeurl@1.0.1
+121 silly currentTree +-- end-of-stream@1.4.0
+121 silly currentTree +-- engine.io-client@1.8.3
+121 silly currentTree | +-- component-emitter@1.2.1
+121 silly currentTree | `-- debug@2.3.3
+121 silly currentTree +-- engine.io-parser@1.3.2
+121 silly currentTree +-- engine.io@1.8.3
+121 silly currentTree | `-- debug@2.3.3
+121 silly currentTree +-- es6-promise@3.3.1
+121 silly currentTree +-- escape-html@1.0.3
+121 silly currentTree +-- escape-string-regexp@1.0.5
+121 silly currentTree +-- etag@1.8.0
+121 silly currentTree +-- event-stream@3.3.4
+121 silly currentTree +-- expand-brackets@0.1.5
+121 silly currentTree +-- expand-range@1.8.2
+121 silly currentTree +-- express@4.15.2
+121 silly currentTree +-- extend-shallow@2.0.1
+121 silly currentTree +-- extend@3.0.0
+121 silly currentTree +-- extglob@0.3.2
+121 silly currentTree | `-- is-extglob@1.0.0
+121 silly currentTree +-- fecha@1.2.2
+121 silly currentTree +-- filename-regex@2.0.0
+121 silly currentTree +-- fill-range@2.2.3
+121 silly currentTree +-- finalhandler@1.0.1
+121 silly currentTree | `-- debug@2.6.3
+121 silly currentTree +-- for-in@1.0.2
+121 silly currentTree +-- for-own@0.1.5
+121 silly currentTree +-- forwarded@0.1.0
+121 silly currentTree +-- fresh@0.5.0
+121 silly currentTree +-- from@0.1.7
+121 silly currentTree +-- fs.realpath@1.0.0
+121 silly currentTree +-- glob-base@0.3.0
+121 silly currentTree | +-- glob-parent@2.0.0
+121 silly currentTree | +-- is-extglob@1.0.0
+121 silly currentTree | `-- is-glob@2.0.1
+121 silly currentTree +-- glob-parent@3.1.0
+121 silly currentTree +-- glob-stream@6.1.0
+121 silly currentTree +-- glob@7.1.1
+121 silly currentTree +-- got@3.3.1
+121 silly currentTree | `-- object-assign@3.0.0
+121 silly currentTree +-- graceful-fs@4.1.11
+121 silly currentTree +-- handlebars@4.0.6
+121 silly currentTree +-- has-ansi@2.0.0
+121 silly currentTree +-- has-binary@0.1.7
+121 silly currentTree +-- has-cors@1.1.0
+121 silly currentTree +-- help-me@1.1.0
+121 silly currentTree +-- http-errors@1.6.1
+121 silly currentTree +-- ignore-by-default@1.0.1
+121 silly currentTree +-- imurmurhash@0.1.4
+121 silly currentTree +-- indexof@0.0.1
+121 silly currentTree +-- infinity-agent@2.0.3
+121 silly currentTree +-- inflight@1.0.6
+121 silly currentTree +-- inherits@2.0.3
+121 silly currentTree +-- ini@1.3.4
+121 silly currentTree +-- ipaddr.js@1.3.0
+121 silly currentTree +-- is-absolute@0.2.6
+121 silly currentTree +-- is-binary-path@1.0.1
+121 silly currentTree +-- is-buffer@1.1.5
+121 silly currentTree +-- is-dotfile@1.0.2
+121 silly currentTree +-- is-equal-shallow@0.1.3
+121 silly currentTree +-- is-extendable@0.1.1
+121 silly currentTree +-- is-extglob@2.1.1
+121 silly currentTree +-- is-finite@1.0.2
+121 silly currentTree +-- is-glob@3.1.0
+121 silly currentTree +-- is-negated-glob@1.0.0
+121 silly currentTree +-- is-npm@1.0.0
+121 silly currentTree +-- is-number@2.1.0
+121 silly currentTree +-- is-posix-bracket@0.1.1
+121 silly currentTree +-- is-primitive@2.0.0
+121 silly currentTree +-- is-redirect@1.0.0
+121 silly currentTree +-- is-relative@0.2.1
+121 silly currentTree +-- is-stream@1.1.0
+121 silly currentTree +-- is-unc-path@0.1.2
+121 silly currentTree +-- is-windows@0.2.0
+121 silly currentTree +-- isarray@0.0.1
+121 silly currentTree +-- isobject@2.1.0
+121 silly currentTree | `-- isarray@1.0.0
+121 silly currentTree +-- json-stable-stringify@1.0.1
+121 silly currentTree +-- json3@3.3.2
+121 silly currentTree +-- jsonify@0.0.0
+121 silly currentTree +-- kind-of@3.1.0
+121 silly currentTree +-- latest-version@1.0.1
+121 silly currentTree +-- lazy-cache@1.0.4
+121 silly currentTree +-- leven@1.0.2
+121 silly currentTree +-- lodash._baseassign@3.2.0
+121 silly currentTree +-- lodash._basecopy@3.0.1
+121 silly currentTree +-- lodash._bindcallback@3.0.1
+121 silly currentTree +-- lodash._createassigner@3.1.1
+121 silly currentTree +-- lodash._getnative@3.9.1
+121 silly currentTree +-- lodash._isiterateecall@3.0.9
+121 silly currentTree +-- lodash.assign@3.2.0
+121 silly currentTree +-- lodash.defaults@3.1.2
+121 silly currentTree +-- lodash.isarguments@3.1.0
+121 silly currentTree +-- lodash.isarray@3.0.4
+121 silly currentTree +-- lodash.keys@3.1.2
+121 silly currentTree +-- lodash.restparam@3.6.1
+121 silly currentTree +-- longest@1.0.1
+121 silly currentTree +-- lowercase-keys@1.0.0
+121 silly currentTree +-- map-stream@0.1.0
+121 silly currentTree +-- media-typer@0.3.0
+121 silly currentTree +-- merge-descriptors@1.0.1
+121 silly currentTree +-- methods@1.1.2
+121 silly currentTree +-- micromatch@2.3.11
+121 silly currentTree | +-- is-extglob@1.0.0
+121 silly currentTree | `-- is-glob@2.0.1
+121 silly currentTree +-- mime-db@1.27.0
+121 silly currentTree +-- mime-types@2.1.15
+121 silly currentTree +-- mime@1.3.4
+121 silly currentTree +-- minimatch@3.0.3
+121 silly currentTree +-- minimist@1.2.0
+121 silly currentTree +-- mkdirp@0.5.1
+121 silly currentTree | `-- minimist@0.0.8
+121 silly currentTree +-- mqtt-packet@5.3.0
+121 silly currentTree +-- mqtt@2.6.2
+121 silly currentTree +-- ms@0.7.2
+121 silly currentTree +-- negotiator@0.6.1
+121 silly currentTree +-- nested-error-stacks@1.0.2
+121 silly currentTree +-- nodemon@1.11.0
+121 silly currentTree +-- nopt@1.0.10
+121 silly currentTree +-- normalize-path@2.1.1
+121 silly currentTree +-- number-is-nan@1.0.1
+121 silly currentTree +-- numbro@1.10.1
+121 silly currentTree +-- object-assign@4.1.0
+121 silly currentTree +-- object-component@0.0.3
+121 silly currentTree +-- object.omit@2.0.1
+121 silly currentTree +-- on-finished@2.3.0
+121 silly currentTree +-- once@1.4.0
+121 silly currentTree +-- optimist@0.6.1
+121 silly currentTree | `-- minimist@0.0.10
+121 silly currentTree +-- options@0.0.6
+121 silly currentTree +-- ordered-read-streams@1.0.0
+121 silly currentTree +-- os-homedir@1.0.2
+121 silly currentTree +-- os-tmpdir@1.0.2
+121 silly currentTree +-- osenv@0.1.4
+121 silly currentTree +-- package-json@1.2.0
+121 silly currentTree +-- parse-glob@3.0.4
+121 silly currentTree | +-- is-extglob@1.0.0
+121 silly currentTree | `-- is-glob@2.0.1
+121 silly currentTree +-- parsejson@0.0.3
+121 silly currentTree +-- parseqs@0.0.5
+121 silly currentTree +-- parseuri@0.0.5
+121 silly currentTree +-- parseurl@1.3.1
+121 silly currentTree +-- path-dirname@1.0.2
+121 silly currentTree +-- path-is-absolute@1.0.1
+121 silly currentTree +-- path-to-regexp@0.1.7
+121 silly currentTree +-- pause-stream@0.0.11
+121 silly currentTree +-- pinkie-promise@2.0.1
+121 silly currentTree +-- pinkie@2.0.4
+121 silly currentTree +-- prepend-http@1.0.4
+121 silly currentTree +-- preserve@0.2.0
+121 silly currentTree +-- process-nextick-args@1.0.7
+121 silly currentTree +-- proxy-addr@1.1.4
+121 silly currentTree +-- ps-tree@1.1.0
+121 silly currentTree +-- pump@1.0.2
+121 silly currentTree +-- pumpify@1.3.5
+121 silly currentTree +-- qs@6.4.0
+121 silly currentTree +-- randomatic@1.1.6
+121 silly currentTree +-- range-parser@1.2.0
+121 silly currentTree +-- rc@1.2.1
+121 silly currentTree +-- read-all-stream@3.1.0
+121 silly currentTree +-- readable-stream@2.2.9
+121 silly currentTree | `-- isarray@1.0.0
+121 silly currentTree +-- readdirp@2.1.0
+121 silly currentTree +-- regex-cache@0.4.3
+121 silly currentTree +-- registry-url@3.1.0
+121 silly currentTree +-- reinterval@1.1.0
+121 silly currentTree +-- remove-trailing-separator@1.0.1
+121 silly currentTree +-- repeat-element@1.1.2
+121 silly currentTree +-- repeat-string@1.6.1
+121 silly currentTree +-- repeating@1.1.3
+121 silly currentTree +-- right-align@0.1.3
+121 silly currentTree +-- safe-buffer@5.0.1
+121 silly currentTree +-- seedrandom@2.4.3
+121 silly currentTree +-- semver-diff@2.1.0
+121 silly currentTree +-- semver@5.3.0
+121 silly currentTree +-- send@0.15.1
+121 silly currentTree +-- serve-static@1.12.1
+121 silly currentTree +-- set-immediate-shim@1.0.1
+121 silly currentTree +-- setprototypeof@1.0.3
+121 silly currentTree +-- slide@1.1.6
+121 silly currentTree +-- socket.io-adapter@0.5.0
+121 silly currentTree | `-- debug@2.3.3
+121 silly currentTree +-- socket.io-client@1.7.3
+121 silly currentTree | +-- component-emitter@1.2.1
+121 silly currentTree | `-- debug@2.3.3
+121 silly currentTree +-- socket.io-parser@2.3.1
+121 silly currentTree | +-- debug@2.2.0
+121 silly currentTree | `-- ms@0.7.1
+121 silly currentTree +-- socket.io@1.7.3
+121 silly currentTree | `-- debug@2.3.3
+121 silly currentTree +-- source-map@0.4.4
+121 silly currentTree +-- split@0.3.3
+121 silly currentTree +-- split2@2.1.1
+121 silly currentTree +-- statuses@1.3.1
+121 silly currentTree +-- stream-combiner@0.0.4
+121 silly currentTree +-- stream-shift@1.0.0
+121 silly currentTree +-- string_decoder@1.0.0
+121 silly currentTree +-- string-length@1.0.1
+121 silly currentTree +-- strip-ansi@3.0.1
+121 silly currentTree +-- strip-json-comments@2.0.1
+121 silly currentTree +-- supervisor@0.12.0
+121 silly currentTree +-- supports-color@2.0.0
+121 silly currentTree +-- through@2.3.8
+121 silly currentTree +-- through2-filter@2.0.0
+121 silly currentTree +-- through2@2.0.3
+121 silly currentTree +-- timed-out@2.0.0
+121 silly currentTree +-- to-absolute-glob@2.0.1
+121 silly currentTree +-- to-array@0.1.4
+121 silly currentTree +-- touch@1.0.0
+121 silly currentTree +-- type-is@1.6.15
+121 silly currentTree +-- typedarray@0.0.6
+121 silly currentTree +-- uglify-js@2.8.22
+121 silly currentTree | `-- source-map@0.5.6
+121 silly currentTree +-- uglify-to-browserify@1.0.2
+121 silly currentTree +-- ultron@1.0.2
+121 silly currentTree +-- unc-path-regex@0.1.2
+121 silly currentTree +-- undefsafe@0.0.3
+121 silly currentTree +-- unique-stream@2.2.1
+121 silly currentTree +-- unpipe@1.0.0
+121 silly currentTree +-- update-notifier@0.5.0
+121 silly currentTree +-- util-deprecate@1.0.2
+121 silly currentTree +-- utils-merge@1.0.0
+121 silly currentTree +-- uuid@2.0.3
+121 silly currentTree +-- vary@1.1.1
+121 silly currentTree +-- websocket-stream@4.0.0
+121 silly currentTree | +-- ultron@1.1.0
+121 silly currentTree | `-- ws@2.2.3
+121 silly currentTree +-- window-size@0.1.0
+121 silly currentTree +-- wordwrap@0.0.3
+121 silly currentTree +-- wrappy@1.0.2
+121 silly currentTree +-- write-file-atomic@1.3.3
+121 silly currentTree +-- ws@1.1.2
+121 silly currentTree +-- wtf-8@1.0.0
+121 silly currentTree +-- xdg-basedir@2.0.0
+121 silly currentTree +-- xmlhttprequest-ssl@1.5.3
+121 silly currentTree +-- xtend@4.0.1
+121 silly currentTree +-- yargs@3.10.0
+121 silly currentTree `-- yeast@0.1.2
+122 silly idealTree Google Maps
+122 silly idealTree +-- abbrev@1.1.0
+122 silly idealTree +-- accepts@1.3.3
+122 silly idealTree +-- after@0.8.2
+122 silly idealTree +-- align-text@0.1.4
+122 silly idealTree +-- amdefine@1.0.1
+122 silly idealTree +-- ansi-regex@2.1.1
+122 silly idealTree +-- ansi-styles@2.2.1
+122 silly idealTree +-- anymatch@1.3.0
+122 silly idealTree +-- arr-diff@2.0.0
+122 silly idealTree +-- arr-flatten@1.0.3
+122 silly idealTree +-- array-flatten@1.1.1
+122 silly idealTree +-- array-unique@0.2.1
+122 silly idealTree +-- arraybuffer.slice@0.0.6
+122 silly idealTree +-- arrify@1.0.1
+122 silly idealTree +-- async-each@1.0.1
+122 silly idealTree +-- async@1.5.2
+122 silly idealTree +-- backo2@1.0.2
+122 silly idealTree +-- balanced-match@0.4.2
+122 silly idealTree +-- base64-arraybuffer@0.1.5
+122 silly idealTree +-- base64id@1.0.0
+122 silly idealTree +-- better-assert@1.0.2
+122 silly idealTree +-- binary-extensions@1.8.0
+122 silly idealTree +-- bl@1.2.0
+122 silly idealTree +-- blob@0.0.4
+122 silly idealTree +-- brace-expansion@1.1.7
+122 silly idealTree +-- braces@1.8.5
+122 silly idealTree +-- buffer-shims@1.0.0
+122 silly idealTree +-- callback-stream@1.1.0
+122 silly idealTree +-- callsite@1.0.0
+122 silly idealTree +-- camelcase@1.2.1
+122 silly idealTree +-- center-align@0.1.3
+122 silly idealTree +-- chalk@1.1.3
+122 silly idealTree +-- chokidar@1.6.1
+122 silly idealTree | +-- glob-parent@2.0.0
+122 silly idealTree | +-- is-extglob@1.0.0
+122 silly idealTree | `-- is-glob@2.0.1
+122 silly idealTree +-- cliui@2.1.0
+122 silly idealTree | `-- wordwrap@0.0.2
+122 silly idealTree +-- commist@1.0.0
+122 silly idealTree +-- component-bind@1.0.0
+122 silly idealTree +-- component-emitter@1.1.2
+122 silly idealTree +-- component-inherit@0.0.3
+122 silly idealTree +-- concat-map@0.0.1
+122 silly idealTree +-- concat-stream@1.6.0
+122 silly idealTree +-- configstore@1.4.0
+122 silly idealTree +-- content-disposition@0.5.2
+122 silly idealTree +-- content-type@1.0.2
+122 silly idealTree +-- cookie-signature@1.0.6
+122 silly idealTree +-- cookie@0.3.1
+122 silly idealTree +-- core-util-is@1.0.2
+122 silly idealTree +-- debug@2.6.1
+122 silly idealTree +-- decamelize@1.2.0
+122 silly idealTree +-- deep-extend@0.4.1
+122 silly idealTree +-- depd@1.1.0
+122 silly idealTree +-- destroy@1.0.4
+122 silly idealTree +-- dummy-json@2.0.0
+122 silly idealTree +-- duplexer@0.1.1
+122 silly idealTree +-- duplexify@3.5.0
+122 silly idealTree | +-- end-of-stream@1.0.0
+122 silly idealTree | `-- once@1.3.3
+122 silly idealTree +-- ee-first@1.1.1
+122 silly idealTree +-- encodeurl@1.0.1
+122 silly idealTree +-- end-of-stream@1.4.0
+122 silly idealTree +-- engine.io-client@1.8.3
+122 silly idealTree | +-- component-emitter@1.2.1
+122 silly idealTree | `-- debug@2.3.3
+122 silly idealTree +-- engine.io-parser@1.3.2
+122 silly idealTree +-- engine.io@1.8.3
+122 silly idealTree | `-- debug@2.3.3
+122 silly idealTree +-- es6-promise@3.3.1
+122 silly idealTree +-- escape-html@1.0.3
+122 silly idealTree +-- escape-string-regexp@1.0.5
+122 silly idealTree +-- etag@1.8.0
+122 silly idealTree +-- event-stream@3.3.4
+122 silly idealTree +-- expand-brackets@0.1.5
+122 silly idealTree +-- expand-range@1.8.2
+122 silly idealTree +-- express@4.15.2
+122 silly idealTree +-- extend-shallow@2.0.1
+122 silly idealTree +-- extend@3.0.0
+122 silly idealTree +-- extglob@0.3.2
+122 silly idealTree | `-- is-extglob@1.0.0
+122 silly idealTree +-- fecha@1.2.2
+122 silly idealTree +-- filename-regex@2.0.0
+122 silly idealTree +-- fill-range@2.2.3
+122 silly idealTree +-- finalhandler@1.0.1
+122 silly idealTree | `-- debug@2.6.3
+122 silly idealTree +-- for-in@1.0.2
+122 silly idealTree +-- for-own@0.1.5
+122 silly idealTree +-- forwarded@0.1.0
+122 silly idealTree +-- fresh@0.5.0
+122 silly idealTree +-- from@0.1.7
+122 silly idealTree +-- fs.realpath@1.0.0
+122 silly idealTree +-- glob-base@0.3.0
+122 silly idealTree | +-- glob-parent@2.0.0
+122 silly idealTree | +-- is-extglob@1.0.0
+122 silly idealTree | `-- is-glob@2.0.1
+122 silly idealTree +-- glob-parent@3.1.0
+122 silly idealTree +-- glob-stream@6.1.0
+122 silly idealTree +-- glob@7.1.1
+122 silly idealTree +-- got@3.3.1
+122 silly idealTree | `-- object-assign@3.0.0
+122 silly idealTree +-- graceful-fs@4.1.11
+122 silly idealTree +-- handlebars@4.0.6
+122 silly idealTree +-- has-ansi@2.0.0
+122 silly idealTree +-- has-binary@0.1.7
+122 silly idealTree +-- has-cors@1.1.0
+122 silly idealTree +-- help-me@1.1.0
+122 silly idealTree +-- http-errors@1.6.1
+122 silly idealTree +-- ignore-by-default@1.0.1
+122 silly idealTree +-- imurmurhash@0.1.4
+122 silly idealTree +-- indexof@0.0.1
+122 silly idealTree +-- infinity-agent@2.0.3
+122 silly idealTree +-- inflight@1.0.6
+122 silly idealTree +-- inherits@2.0.3
+122 silly idealTree +-- ini@1.3.4
+122 silly idealTree +-- ipaddr.js@1.3.0
+122 silly idealTree +-- is-absolute@0.2.6
+122 silly idealTree +-- is-binary-path@1.0.1
+122 silly idealTree +-- is-buffer@1.1.5
+122 silly idealTree +-- is-dotfile@1.0.2
+122 silly idealTree +-- is-equal-shallow@0.1.3
+122 silly idealTree +-- is-extendable@0.1.1
+122 silly idealTree +-- is-extglob@2.1.1
+122 silly idealTree +-- is-finite@1.0.2
+122 silly idealTree +-- is-glob@3.1.0
+122 silly idealTree +-- is-negated-glob@1.0.0
+122 silly idealTree +-- is-npm@1.0.0
+122 silly idealTree +-- is-number@2.1.0
+122 silly idealTree +-- is-posix-bracket@0.1.1
+122 silly idealTree +-- is-primitive@2.0.0
+122 silly idealTree +-- is-redirect@1.0.0
+122 silly idealTree +-- is-relative@0.2.1
+122 silly idealTree +-- is-stream@1.1.0
+122 silly idealTree +-- is-unc-path@0.1.2
+122 silly idealTree +-- is-windows@0.2.0
+122 silly idealTree +-- isarray@0.0.1
+122 silly idealTree +-- isobject@2.1.0
+122 silly idealTree | `-- isarray@1.0.0
+122 silly idealTree +-- json-stable-stringify@1.0.1
+122 silly idealTree +-- json3@3.3.2
+122 silly idealTree +-- jsonify@0.0.0
+122 silly idealTree +-- kind-of@3.1.0
+122 silly idealTree +-- latest-version@1.0.1
+122 silly idealTree +-- lazy-cache@1.0.4
+122 silly idealTree +-- leven@1.0.2
+122 silly idealTree +-- lodash._baseassign@3.2.0
+122 silly idealTree +-- lodash._basecopy@3.0.1
+122 silly idealTree +-- lodash._bindcallback@3.0.1
+122 silly idealTree +-- lodash._createassigner@3.1.1
+122 silly idealTree +-- lodash._getnative@3.9.1
+122 silly idealTree +-- lodash._isiterateecall@3.0.9
+122 silly idealTree +-- lodash.assign@3.2.0
+122 silly idealTree +-- lodash.defaults@3.1.2
+122 silly idealTree +-- lodash.isarguments@3.1.0
+122 silly idealTree +-- lodash.isarray@3.0.4
+122 silly idealTree +-- lodash.keys@3.1.2
+122 silly idealTree +-- lodash.restparam@3.6.1
+122 silly idealTree +-- longest@1.0.1
+122 silly idealTree +-- lowercase-keys@1.0.0
+122 silly idealTree +-- map-stream@0.1.0
+122 silly idealTree +-- media-typer@0.3.0
+122 silly idealTree +-- merge-descriptors@1.0.1
+122 silly idealTree +-- methods@1.1.2
+122 silly idealTree +-- micromatch@2.3.11
+122 silly idealTree | +-- is-extglob@1.0.0
+122 silly idealTree | `-- is-glob@2.0.1
+122 silly idealTree +-- mime-db@1.27.0
+122 silly idealTree +-- mime-types@2.1.15
+122 silly idealTree +-- mime@1.3.4
+122 silly idealTree +-- minimatch@3.0.3
+122 silly idealTree +-- minimist@1.2.0
+122 silly idealTree +-- mkdirp@0.5.1
+122 silly idealTree | `-- minimist@0.0.8
+122 silly idealTree +-- mqtt-packet@5.3.0
+122 silly idealTree +-- mqtt@2.6.2
+122 silly idealTree +-- ms@0.7.2
+122 silly idealTree +-- nan@2.6.2
+122 silly idealTree +-- negotiator@0.6.1
+122 silly idealTree +-- nested-error-stacks@1.0.2
+122 silly idealTree +-- nodemon@1.11.0
+122 silly idealTree +-- nopt@1.0.10
+122 silly idealTree +-- normalize-path@2.1.1
+122 silly idealTree +-- number-is-nan@1.0.1
+122 silly idealTree +-- numbro@1.10.1
+122 silly idealTree +-- object-assign@4.1.0
+122 silly idealTree +-- object-component@0.0.3
+122 silly idealTree +-- object.omit@2.0.1
+122 silly idealTree +-- on-finished@2.3.0
+122 silly idealTree +-- once@1.4.0
+122 silly idealTree +-- optimist@0.6.1
+122 silly idealTree | `-- minimist@0.0.10
+122 silly idealTree +-- options@0.0.6
+122 silly idealTree +-- ordered-read-streams@1.0.0
+122 silly idealTree +-- os-homedir@1.0.2
+122 silly idealTree +-- os-tmpdir@1.0.2
+122 silly idealTree +-- osenv@0.1.4
+122 silly idealTree +-- package-json@1.2.0
+122 silly idealTree +-- parse-glob@3.0.4
+122 silly idealTree | +-- is-extglob@1.0.0
+122 silly idealTree | `-- is-glob@2.0.1
+122 silly idealTree +-- parsejson@0.0.3
+122 silly idealTree +-- parseqs@0.0.5
+122 silly idealTree +-- parseuri@0.0.5
+122 silly idealTree +-- parseurl@1.3.1
+122 silly idealTree +-- path-dirname@1.0.2
+122 silly idealTree +-- path-is-absolute@1.0.1
+122 silly idealTree +-- path-to-regexp@0.1.7
+122 silly idealTree +-- pause-stream@0.0.11
+122 silly idealTree +-- pinkie-promise@2.0.1
+122 silly idealTree +-- pinkie@2.0.4
+122 silly idealTree +-- prepend-http@1.0.4
+122 silly idealTree +-- preserve@0.2.0
+122 silly idealTree +-- process-nextick-args@1.0.7
+122 silly idealTree +-- proxy-addr@1.1.4
+122 silly idealTree +-- ps-tree@1.1.0
+122 silly idealTree +-- pump@1.0.2
+122 silly idealTree +-- pumpify@1.3.5
+122 silly idealTree +-- qs@6.4.0
+122 silly idealTree +-- randomatic@1.1.6
+122 silly idealTree +-- range-parser@1.2.0
+122 silly idealTree +-- rc@1.2.1
+122 silly idealTree +-- read-all-stream@3.1.0
+122 silly idealTree +-- readable-stream@2.2.9
+122 silly idealTree | `-- isarray@1.0.0
+122 silly idealTree +-- readdirp@2.1.0
+122 silly idealTree +-- regex-cache@0.4.3
+122 silly idealTree +-- registry-url@3.1.0
+122 silly idealTree +-- reinterval@1.1.0
+122 silly idealTree +-- remove-trailing-separator@1.0.1
+122 silly idealTree +-- repeat-element@1.1.2
+122 silly idealTree +-- repeat-string@1.6.1
+122 silly idealTree +-- repeating@1.1.3
+122 silly idealTree +-- right-align@0.1.3
+122 silly idealTree +-- safe-buffer@5.0.1
+122 silly idealTree +-- seedrandom@2.4.3
+122 silly idealTree +-- semver-diff@2.1.0
+122 silly idealTree +-- semver@5.3.0
+122 silly idealTree +-- send@0.15.1
+122 silly idealTree +-- serve-static@1.12.1
+122 silly idealTree +-- set-immediate-shim@1.0.1
+122 silly idealTree +-- setprototypeof@1.0.3
+122 silly idealTree +-- sleep@5.1.1
+122 silly idealTree +-- slide@1.1.6
+122 silly idealTree +-- socket.io-adapter@0.5.0
+122 silly idealTree | `-- debug@2.3.3
+122 silly idealTree +-- socket.io-client@1.7.3
+122 silly idealTree | +-- component-emitter@1.2.1
+122 silly idealTree | `-- debug@2.3.3
+122 silly idealTree +-- socket.io-parser@2.3.1
+122 silly idealTree | +-- debug@2.2.0
+122 silly idealTree | `-- ms@0.7.1
+122 silly idealTree +-- socket.io@1.7.3
+122 silly idealTree | `-- debug@2.3.3
+122 silly idealTree +-- source-map@0.4.4
+122 silly idealTree +-- split@0.3.3
+122 silly idealTree +-- split2@2.1.1
+122 silly idealTree +-- statuses@1.3.1
+122 silly idealTree +-- stream-combiner@0.0.4
+122 silly idealTree +-- stream-shift@1.0.0
+122 silly idealTree +-- string_decoder@1.0.0
+122 silly idealTree +-- string-length@1.0.1
+122 silly idealTree +-- strip-ansi@3.0.1
+122 silly idealTree +-- strip-json-comments@2.0.1
+122 silly idealTree +-- supervisor@0.12.0
+122 silly idealTree +-- supports-color@2.0.0
+122 silly idealTree +-- through@2.3.8
+122 silly idealTree +-- through2-filter@2.0.0
+122 silly idealTree +-- through2@2.0.3
+122 silly idealTree +-- timed-out@2.0.0
+122 silly idealTree +-- to-absolute-glob@2.0.1
+122 silly idealTree +-- to-array@0.1.4
+122 silly idealTree +-- touch@1.0.0
+122 silly idealTree +-- type-is@1.6.15
+122 silly idealTree +-- typedarray@0.0.6
+122 silly idealTree +-- uglify-js@2.8.22
+122 silly idealTree | `-- source-map@0.5.6
+122 silly idealTree +-- uglify-to-browserify@1.0.2
+122 silly idealTree +-- ultron@1.0.2
+122 silly idealTree +-- unc-path-regex@0.1.2
+122 silly idealTree +-- undefsafe@0.0.3
+122 silly idealTree +-- unique-stream@2.2.1
+122 silly idealTree +-- unpipe@1.0.0
+122 silly idealTree +-- update-notifier@0.5.0
+122 silly idealTree +-- util-deprecate@1.0.2
+122 silly idealTree +-- utils-merge@1.0.0
+122 silly idealTree +-- uuid@2.0.3
+122 silly idealTree +-- vary@1.1.1
+122 silly idealTree +-- websocket-stream@4.0.0
+122 silly idealTree | +-- ultron@1.1.0
+122 silly idealTree | `-- ws@2.2.3
+122 silly idealTree +-- window-size@0.1.0
+122 silly idealTree +-- wordwrap@0.0.3
+122 silly idealTree +-- wrappy@1.0.2
+122 silly idealTree +-- write-file-atomic@1.3.3
+122 silly idealTree +-- ws@1.1.2
+122 silly idealTree +-- wtf-8@1.0.0
+122 silly idealTree +-- xdg-basedir@2.0.0
+122 silly idealTree +-- xmlhttprequest-ssl@1.5.3
+122 silly idealTree +-- xtend@4.0.1
+122 silly idealTree +-- yargs@3.10.0
+122 silly idealTree `-- yeast@0.1.2
+123 silly generateActionsToTake Starting
+124 silly install generateActionsToTake
+125 silly generateActionsToTake Finishing
+126 silly diffTrees action count 2
+127 silly diffTrees add nan@2.6.2
+128 silly diffTrees add sleep@5.1.1
+129 silly decomposeActions action count 16
+130 silly decomposeActions fetch nan@2.6.2
+131 silly decomposeActions extract nan@2.6.2
+132 silly decomposeActions test nan@2.6.2
+133 silly decomposeActions preinstall nan@2.6.2
+134 silly decomposeActions build nan@2.6.2
+135 silly decomposeActions install nan@2.6.2
+136 silly decomposeActions postinstall nan@2.6.2
+137 silly decomposeActions finalize nan@2.6.2
+138 silly decomposeActions fetch sleep@5.1.1
+139 silly decomposeActions extract sleep@5.1.1
+140 silly decomposeActions test sleep@5.1.1
+141 silly decomposeActions preinstall sleep@5.1.1
+142 silly decomposeActions build sleep@5.1.1
+143 silly decomposeActions install sleep@5.1.1
+144 silly decomposeActions postinstall sleep@5.1.1
+145 silly decomposeActions finalize sleep@5.1.1
+146 silly runTopLevelLifecycles Starting
+147 silly executeActions Starting
+148 silly install executeActions
+149 silly doSerial global-install 0
+150 silly doParallel fetch 2
+151 verbose correctMkdir C:\Users\saklayan.shariar\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+152 verbose lock using C:\Users\saklayan.shariar\AppData\Roaming\npm-cache\_locks\staging-f3b59a5e15aec2a3.lock for C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\.staging
+153 silly doParallel extract 2
+154 silly extract nan@2.6.2
+155 silly extract sleep@5.1.1
+156 verbose unbuild node_modules\.staging\nan-8aca4b96
+157 verbose unbuild node_modules\.staging\sleep-0022beb1
+158 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\.staging\nan-8aca4b96 is being purged from base C:\Users\saklayan.shariar\Desktop\Google Maps
+159 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\.staging\nan-8aca4b96
+160 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\.staging\sleep-0022beb1 is being purged from base C:\Users\saklayan.shariar\Desktop\Google Maps
+161 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\.staging\sleep-0022beb1
+162 verbose tar unpack C:\Users\saklayan.shariar\AppData\Roaming\npm-cache\nan\2.6.2\package.tgz
+163 verbose tar unpacking to C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\.staging\nan-8aca4b96
+164 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\.staging\nan-8aca4b96 is being purged
+165 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\.staging\nan-8aca4b96
+166 verbose tar unpack C:\Users\saklayan.shariar\AppData\Roaming\npm-cache\sleep\5.1.1\package.tgz
+167 verbose tar unpacking to C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\.staging\sleep-0022beb1
+168 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\.staging\sleep-0022beb1 is being purged
+169 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\.staging\sleep-0022beb1
+170 silly gunzTarPerm modes [ '777', '666' ]
+171 silly gunzTarPerm modes [ '777', '666' ]
+172 silly gunzTarPerm extractEntry package.json
+173 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+174 silly gunzTarPerm extractEntry package.json
+175 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+176 silly gunzTarPerm extractEntry README.md
+177 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+178 silly gunzTarPerm extractEntry include_dirs.js
+179 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+180 silly gunzTarPerm extractEntry .npmignore
+181 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+182 silly gunzTarPerm extractEntry README.md
+183 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+184 silly gunzTarPerm extractEntry test.js
+185 silly gunzTarPerm modified mode [ 'test.js', 436, 438 ]
+186 silly gunzTarPerm extractEntry index.js
+187 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+188 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+189 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+190 silly gunzTarPerm extractEntry LICENSE.md
+191 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+192 silly gunzTarPerm extractEntry doc/new.md
+193 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+194 silly gunzTarPerm extractEntry LICENSE.txt
+195 silly gunzTarPerm modified mode [ 'LICENSE.txt', 436, 438 ]
+196 silly gunzTarPerm extractEntry sleep.cc
+197 silly gunzTarPerm modified mode [ 'sleep.cc', 436, 438 ]
+198 silly gunzTarPerm extractEntry doc/asyncworker.md
+199 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+200 silly gunzTarPerm extractEntry doc/callback.md
+201 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+202 silly gunzTarPerm extractEntry doc/converters.md
+203 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+204 silly gunzTarPerm extractEntry binding.gyp
+205 silly gunzTarPerm modified mode [ 'binding.gyp', 436, 438 ]
+206 silly gunzTarPerm extractEntry doc/errors.md
+207 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+208 silly gunzTarPerm extractEntry doc/json.md
+209 silly gunzTarPerm modified mode [ 'doc/json.md', 436, 438 ]
+210 silly gunzTarPerm extractEntry doc/maybe_types.md
+211 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+212 silly gunzTarPerm extractEntry doc/methods.md
+213 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+214 silly gunzTarPerm extractEntry doc/buffers.md
+215 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+216 silly gunzTarPerm extractEntry doc/node_misc.md
+217 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+218 silly gunzTarPerm extractEntry doc/object_wrappers.md
+219 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 438 ]
+220 silly gunzTarPerm extractEntry doc/persistent.md
+221 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+222 silly gunzTarPerm extractEntry doc/scopes.md
+223 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+224 silly gunzTarPerm extractEntry doc/script.md
+225 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+226 silly gunzTarPerm extractEntry doc/string_bytes.md
+227 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+228 silly gunzTarPerm extractEntry doc/v8_internals.md
+229 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+230 silly gunzTarPerm extractEntry doc/v8_misc.md
+231 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+232 silly gunzTarPerm extractEntry nan.h
+233 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+234 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\.staging\sleep-0022beb1\node_modules is being purged
+235 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\.staging\sleep-0022beb1\node_modules
+236 silly gunzTarPerm extractEntry nan_callbacks.h
+237 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+238 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+239 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+240 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+241 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+242 silly gunzTarPerm extractEntry nan_converters.h
+243 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+244 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+245 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+246 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+247 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+248 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+249 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+250 silly gunzTarPerm extractEntry nan_json.h
+251 silly gunzTarPerm modified mode [ 'nan_json.h', 436, 438 ]
+252 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+253 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+254 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+255 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+256 silly gunzTarPerm extractEntry nan_new.h
+257 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+258 silly gunzTarPerm extractEntry nan_object_wrap.h
+259 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+260 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+261 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+262 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+263 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+264 silly gunzTarPerm extractEntry nan_private.h
+265 silly gunzTarPerm modified mode [ 'nan_private.h', 436, 438 ]
+266 silly gunzTarPerm extractEntry nan_string_bytes.h
+267 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+268 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+269 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+270 silly gunzTarPerm extractEntry nan_weak.h
+271 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+272 silly gunzTarPerm extractEntry CHANGELOG.md
+273 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+274 silly gunzTarPerm extractEntry tools/package.json
+275 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+276 silly gunzTarPerm extractEntry tools/README.md
+277 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+278 silly gunzTarPerm extractEntry tools/1to2.js
+279 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+280 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\.staging\nan-8aca4b96\node_modules is being purged
+281 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\.staging\nan-8aca4b96\node_modules
+282 silly doParallel preinstall 2
+283 silly preinstall nan@2.6.2
+284 info lifecycle nan@2.6.2~preinstall: nan@2.6.2
+285 silly preinstall sleep@5.1.1
+286 info lifecycle sleep@5.1.1~preinstall: sleep@5.1.1
+287 silly lifecycle nan@2.6.2~preinstall: no script for preinstall, continuing
+288 silly lifecycle sleep@5.1.1~preinstall: no script for preinstall, continuing
+289 silly doReverseSerial remove 0
+290 silly doSerial move 0
+291 silly doSerial finalize 2
+292 silly finalize C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan
+293 silly finalize C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep
+294 silly doSerial build 2
+295 silly build nan@2.6.2
+296 info linkStuff nan@2.6.2
+297 silly linkStuff nan@2.6.2 has C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules as its parent node_modules
+298 verbose linkBins nan@2.6.2
+299 verbose linkMans nan@2.6.2
+300 silly build sleep@5.1.1
+301 info linkStuff sleep@5.1.1
+302 silly linkStuff sleep@5.1.1 has C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules as its parent node_modules
+303 verbose linkBins sleep@5.1.1
+304 verbose linkMans sleep@5.1.1
+305 silly doSerial global-link 0
+306 silly doParallel update-linked 0
+307 silly doSerial install 2
+308 silly install nan@2.6.2
+309 info lifecycle nan@2.6.2~install: nan@2.6.2
+310 silly lifecycle nan@2.6.2~install: no script for install, continuing
+311 silly install sleep@5.1.1
+312 info lifecycle sleep@5.1.1~install: sleep@5.1.1
+313 verbose lifecycle sleep@5.1.1~install: unsafe-perm in lifecycle true
+314 verbose lifecycle sleep@5.1.1~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep\node_modules\.bin;C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\.bin;C:\Program Files\nodejs;C:\Users\saklayan.shariar\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm
+315 verbose lifecycle sleep@5.1.1~install: CWD: C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep
+316 silly lifecycle sleep@5.1.1~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+317 silly lifecycle sleep@5.1.1~install: Returned: code: 1  signal: null
+318 info lifecycle sleep@5.1.1~install: Failed to exec install script
+319 verbose unlock done using C:\Users\saklayan.shariar\AppData\Roaming\npm-cache\_locks\staging-f3b59a5e15aec2a3.lock for C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\.staging
+320 silly rollbackFailedOptional Starting
+321 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan is being purged from base C:\Users\saklayan.shariar\Desktop\Google Maps
+322 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan
+323 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan is being purged from base C:\Users\saklayan.shariar\Desktop\Google Maps
+324 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan
+325 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan is being purged from base C:\Users\saklayan.shariar\Desktop\Google Maps
+326 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan
+327 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan is being purged from base C:\Users\saklayan.shariar\Desktop\Google Maps
+328 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan
+329 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan is being purged from base C:\Users\saklayan.shariar\Desktop\Google Maps
+330 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan
+331 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan is being purged from base C:\Users\saklayan.shariar\Desktop\Google Maps
+332 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan
+333 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan is being purged from base C:\Users\saklayan.shariar\Desktop\Google Maps
+334 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan
+335 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan is being purged from base C:\Users\saklayan.shariar\Desktop\Google Maps
+336 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan
+337 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep is being purged from base C:\Users\saklayan.shariar\Desktop\Google Maps
+338 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep
+339 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep is being purged from base C:\Users\saklayan.shariar\Desktop\Google Maps
+340 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep
+341 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep is being purged from base C:\Users\saklayan.shariar\Desktop\Google Maps
+342 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep
+343 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep is being purged from base C:\Users\saklayan.shariar\Desktop\Google Maps
+344 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep
+345 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep is being purged from base C:\Users\saklayan.shariar\Desktop\Google Maps
+346 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep
+347 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep is being purged from base C:\Users\saklayan.shariar\Desktop\Google Maps
+348 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep
+349 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep is being purged from base C:\Users\saklayan.shariar\Desktop\Google Maps
+350 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep
+351 silly gentlyRm C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep is being purged from base C:\Users\saklayan.shariar\Desktop\Google Maps
+352 verbose gentlyRm don't care about contents; nuking C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep
+353 silly vacuum-fs purging C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan
+354 silly vacuum-fs purging C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan
+355 silly vacuum-fs purging C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan
+356 silly vacuum-fs purging C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan
+357 silly vacuum-fs purging C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan
+358 silly vacuum-fs purging C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan
+359 silly vacuum-fs purging C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan
+360 silly vacuum-fs purging C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\nan
+361 silly vacuum-fs purging C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep
+362 silly vacuum-fs purging C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep
+363 silly vacuum-fs purging C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep
+364 silly vacuum-fs purging C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep
+365 silly vacuum-fs purging C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep
+366 silly vacuum-fs purging C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep
+367 silly vacuum-fs purging C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep
+368 silly vacuum-fs purging C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules\sleep
+369 silly vacuum-fs quitting because other entries in C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules
+370 silly vacuum-fs quitting because other entries in C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules
+371 silly vacuum-fs quitting because other entries in C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules
+372 silly vacuum-fs quitting because other entries in C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules
+373 silly vacuum-fs quitting because other entries in C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules
+374 silly vacuum-fs quitting because other entries in C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules
+375 silly vacuum-fs quitting because other entries in C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules
+376 silly vacuum-fs quitting because other entries in C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules
+377 silly vacuum-fs quitting because other entries in C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules
+378 silly vacuum-fs quitting because other entries in C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules
+379 silly vacuum-fs quitting because other entries in C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules
+380 silly vacuum-fs quitting because other entries in C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules
+381 silly vacuum-fs quitting because other entries in C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules
+382 silly vacuum-fs quitting because other entries in C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules
+383 silly vacuum-fs quitting because other entries in C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules
+384 silly vacuum-fs quitting because other entries in C:\Users\saklayan.shariar\Desktop\Google Maps\node_modules
+385 silly rollbackFailedOptional Finishing
+386 silly runTopLevelLifecycles Finishing
+387 silly install printInstalled
+388 warn optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.0.0 (node_modules\chokidar\node_modules\fsevents):
+389 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.1: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+390 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid OS:    darwin
+390 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid Arch:  any
+390 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual OS:   win32
+390 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual Arch: x64
+391 warn enoent ENOENT: no such file or directory, open 'C:\Users\saklayan.shariar\Desktop\Google Maps\package.json'
+392 verbose enoent ENOENT: no such file or directory, open 'C:\Users\saklayan.shariar\Desktop\Google Maps\package.json'
+392 verbose enoent This is most likely not a problem with npm itself
+392 verbose enoent and is related to npm not being able to find a file.
+393 warn Google Maps No description
+394 verbose If you need help, you may report this error at:
+394 verbose     <https://github.com/npm/npm/issues>
+395 warn Google Maps No repository field.
+396 verbose If you need help, you may report this error at:
+396 verbose     <https://github.com/npm/npm/issues>
+397 warn Google Maps No README data
+398 verbose If you need help, you may report this error at:
+398 verbose     <https://github.com/npm/npm/issues>
+399 warn Google Maps No license field.
+400 verbose If you need help, you may report this error at:
+400 verbose     <https://github.com/npm/npm/issues>
+401 verbose stack Error: sleep@5.1.1 install: `node-gyp rebuild`
+401 verbose stack Exit status 1
+401 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:279:16)
+401 verbose stack     at emitTwo (events.js:106:13)
+401 verbose stack     at EventEmitter.emit (events.js:191:7)
+401 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+401 verbose stack     at emitTwo (events.js:106:13)
+401 verbose stack     at ChildProcess.emit (events.js:191:7)
+401 verbose stack     at maybeClose (internal/child_process.js:885:16)
+401 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+402 verbose pkgid sleep@5.1.1
+403 verbose cwd C:\Users\saklayan.shariar\Desktop\Google Maps\socket
+404 error Windows_NT 10.0.14393
+405 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "sleep"
+406 error node v7.4.0
+407 error npm  v4.0.5
+408 error code ELIFECYCLE
+409 error sleep@5.1.1 install: `node-gyp rebuild`
+409 error Exit status 1
+410 error Failed at the sleep@5.1.1 install script 'node-gyp rebuild'.
+410 error Make sure you have the latest version of node.js and npm installed.
+410 error If you do, this is most likely a problem with the sleep package,
+410 error not with npm itself.
+410 error Tell the author that this fails on your system:
+410 error     node-gyp rebuild
+410 error You can get information on how to open an issue for this project with:
+410 error     npm bugs sleep
+410 error Or if that isn't available, you can get their info via:
+410 error     npm owner ls sleep
+410 error There is likely additional logging output above.
+411 verbose exit [ 1, true ]
